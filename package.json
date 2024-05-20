@@ -13,13 +13,13 @@
   "license": "MIT",
   "commands": [
     {
-      "name": "search-from-guitaretab-com",
+      "name": "guitaretab",
       "title": "Search from Guitaretab",
       "description": "Search from www.guitaretab.com",
       "mode": "view"
     },
     {
-      "name": "search-from-songsterr-com",
+      "name": "songsterr",
       "title": "Search Tabs from Songsterr",
       "description": "Search guitar tabs from www.songsterr.com",
       "mode": "view"

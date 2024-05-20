@@ -1,25 +1,6 @@
 import got from "got";
 import { load } from "cheerio";
 
-export interface Song {
-  title: string;
-  url: string;
-  artist: string;
-  difficulty?: string;
-}
-
-export interface GuitaretabSong {
-  title: string;
-  url: string;
-  artist: string;
-}
-
-export interface CommandState {
-  records?: Array<Song>;
-  error?: Error;
-  loading?: boolean;
-}
-
 export const getSongsterrResults = async (searchQuery: string) => {
   const { body } = await got(`https://www.songsterr.com/?pattern=${searchQuery}`);
   const $ = load(body);

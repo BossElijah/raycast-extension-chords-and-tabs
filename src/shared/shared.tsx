@@ -1,6 +1,10 @@
 import { Action, ActionPanel, Icon, List } from "@raycast/api";
 import { useEffect, useState } from "react";
-import { CommandState, getGuitaretabResults, getSongsterrResults, Song } from "../util";
+import {
+  getGuitaretabResults,
+  getSongsterrResults,
+} from "../util";
+import { CommandState, Song } from "../types";
 
 const SharedCommand = ({ siteName }: { siteName: string }) => {
   const [state, setState] = useState<CommandState>({});
