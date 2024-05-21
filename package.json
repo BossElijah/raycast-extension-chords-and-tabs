@@ -2,7 +2,7 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "chords-and-tabs",
   "title": "Chords and Tabs",
-  "description": "Find chords and tabs for your favorite songs!",
+  "description": "Find chords and tabs for your favorite songs and musical pieces!",
   "icon": "logo.png",
   "author": "BossElijah",
   "categories": [
@@ -14,13 +14,13 @@
   "commands": [
     {
       "name": "guitaretab",
-      "title": "Search from Guitaretab",
+      "title": "Search Music from Guitaretab",
       "description": "Search from www.guitaretab.com",
       "mode": "view"
     },
     {
       "name": "songsterr",
-      "title": "Search Tabs from Songsterr",
+      "title": "Search Music from Songsterr",
       "description": "Search guitar tabs from www.songsterr.com",
       "mode": "view"
     }

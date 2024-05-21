@@ -1,3 +1,5 @@
 import SharedCommand from "./shared/shared";
 
-export default () => <SharedCommand siteName="Guitaretab" />;
+const GuitaretabCommand = () => <SharedCommand siteName="Guitaretab" />;
+
+export default GuitaretabCommand;

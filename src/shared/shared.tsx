@@ -1,9 +1,6 @@
 import { Action, ActionPanel, Icon, List } from "@raycast/api";
 import { useEffect, useState } from "react";
-import {
-  getGuitaretabResults,
-  getSongsterrResults,
-} from "../util";
+import { getGuitaretabResults, getSongsterrResults } from "../util";
 import { CommandState, Song } from "../types";
 
 const SharedCommand = ({ siteName }: { siteName: string }) => {
@@ -60,6 +57,7 @@ const SharedCommand = ({ siteName }: { siteName: string }) => {
         if ("difficulty" in item && item.difficulty) {
           accessories.push({ icon: Icon.Hammer, text: item.difficulty });
         }
+
         return (
           <List.Item
             key={index}

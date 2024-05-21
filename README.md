@@ -1,6 +1,6 @@
 # Chords and Tabs
 
-Find chords and tabs for your favorite songs!
+Find chords and tabs for your favorite songs and musical pieces!
 
 ## Current Sources
 
